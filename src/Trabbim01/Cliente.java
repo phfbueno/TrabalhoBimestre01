@@ -4,10 +4,17 @@ package Trabbim01;
 public class Cliente {
 	@Coluna(pk = true)
 	private int id; 
-	@Coluna(nome = "CLNOME")
+	
+	@Coluna(nome = "CLNOME", tamanho = 150)
 	private String nome;
-	@Coluna(nome = "CLEND")
+	
+	@Coluna(nome = "CLEND", tamanho = 150)
 	private String endereco;
-
+	
+	@Coluna(nome = "CTELEFONE", tamanho = 10)
+	private String telefone;
+	
+	@Coluna(nome = "CESTADOCIVIL", tamanho = 1)
+	private EstadoCivil estadoCivil;
 
 }

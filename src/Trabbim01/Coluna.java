@@ -12,7 +12,7 @@ public @interface Coluna {
 
 	String nome() default "";
 	
-	int taanho() default -1;
+	int tamanho() default -1;
 	
 	boolean pk() default false;
 }
