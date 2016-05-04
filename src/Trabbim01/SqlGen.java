@@ -1,5 +1,7 @@
 package Trabbim01;
 
+
+
 public abstract class SqlGen<protectedabstract> {
 	// DDL
 	protectedabstract String getCreateTable(Connection con, Object obj);
